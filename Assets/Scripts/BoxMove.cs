@@ -11,6 +11,14 @@ public class BoxMove : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else if (Input.GetAxis("Horizontal") < 0)
+        {
+            transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = true;
+        }
         rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
 
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
