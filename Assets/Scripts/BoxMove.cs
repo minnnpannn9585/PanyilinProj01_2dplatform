@@ -24,6 +24,7 @@ public class BoxMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
             rb.AddForce(jumpForce * Vector2.up,  ForceMode2D.Impulse);
+            GetComponent<AudioSource>().Play();
         }
     }
 }
