@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 21355150}
   m_Layer: 0
   m_Name: WechatIMG102 (35)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 41575462}
   m_Layer: 0
   m_Name: WechatIMG104 (10)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 113102549}
   m_Layer: 0
   m_Name: WechatIMG104
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1175,7 +1175,7 @@ GameObject:
   - component: {fileID: 124830639}
   m_Layer: 0
   m_Name: WechatIMG105 (4)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1332,7 +1332,7 @@ GameObject:
   - component: {fileID: 130849718}
   m_Layer: 0
   m_Name: WechatIMG102 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 231157358}
   m_Layer: 0
   m_Name: WechatIMG104 (11)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1864,7 +1864,7 @@ GameObject:
   - component: {fileID: 238964394}
   m_Layer: 0
   m_Name: WechatIMG105 (1)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2192,7 +2192,7 @@ GameObject:
   - component: {fileID: 312232316}
   m_Layer: 0
   m_Name: WechatIMG102 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2429,6 +2429,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5214333572843677224, guid: 8b69c3809809845e489718efa7c9ec28, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25561777
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214333572843677224, guid: 8b69c3809809845e489718efa7c9ec28, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25561777
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214333572843677224, guid: 8b69c3809809845e489718efa7c9ec28, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25561777
+      objectReference: {fileID: 0}
+    - target: {fileID: 6769674161080356099, guid: 8b69c3809809845e489718efa7c9ec28, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8485425331297512665, guid: 8b69c3809809845e489718efa7c9ec28, type: 3}
       propertyPath: m_Name
       value: Player (1)
@@ -2529,7 +2545,7 @@ GameObject:
   - component: {fileID: 443638953}
   m_Layer: 0
   m_Name: WechatIMG104 (7)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2743,7 +2759,7 @@ GameObject:
   - component: {fileID: 455597960}
   m_Layer: 0
   m_Name: WechatIMG102 (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2888,7 +2904,7 @@ GameObject:
   - component: {fileID: 464787863}
   m_Layer: 0
   m_Name: WechatIMG102 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3033,7 +3049,7 @@ GameObject:
   - component: {fileID: 469826377}
   m_Layer: 0
   m_Name: WechatIMG109
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3469,7 +3485,7 @@ GameObject:
   - component: {fileID: 510904738}
   m_Layer: 0
   m_Name: WechatIMG104 (1)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4045,7 +4061,7 @@ GameObject:
   - component: {fileID: 564742537}
   m_Layer: 0
   m_Name: WechatIMG102 (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4500,7 +4516,7 @@ GameObject:
   - component: {fileID: 677113634}
   m_Layer: 0
   m_Name: WechatIMG102 (37)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4645,7 +4661,7 @@ GameObject:
   - component: {fileID: 701290734}
   m_Layer: 0
   m_Name: WechatIMG102 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4848,7 +4864,7 @@ GameObject:
   - component: {fileID: 711954888}
   m_Layer: 0
   m_Name: WechatIMG104 (8)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5006,7 +5022,7 @@ GameObject:
   - component: {fileID: 725289685}
   m_Layer: 0
   m_Name: WechatIMG104 (2)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5164,7 +5180,7 @@ GameObject:
   - component: {fileID: 779206147}
   m_Layer: 0
   m_Name: WechatIMG104 (3)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5435,7 +5451,7 @@ GameObject:
   - component: {fileID: 832773157}
   m_Layer: 0
   m_Name: WechatIMG108 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5582,7 +5598,7 @@ GameObject:
   - component: {fileID: 834808862}
   m_Layer: 0
   m_Name: WechatIMG102 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5727,7 +5743,7 @@ GameObject:
   - component: {fileID: 841366052}
   m_Layer: 0
   m_Name: WechatIMG102 (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6044,7 +6060,7 @@ GameObject:
   - component: {fileID: 883678711}
   m_Layer: 0
   m_Name: WechatIMG105
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6316,7 +6332,7 @@ GameObject:
   - component: {fileID: 915849817}
   m_Layer: 0
   m_Name: WechatIMG105 (5)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6473,7 +6489,7 @@ GameObject:
   - component: {fileID: 933507785}
   m_Layer: 0
   m_Name: WechatIMG102 (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6619,7 +6635,7 @@ GameObject:
   - component: {fileID: 936797734}
   m_Layer: 0
   m_Name: WechatIMG105 (3)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6776,7 +6792,7 @@ GameObject:
   - component: {fileID: 948553022}
   m_Layer: 0
   m_Name: WechatIMG102 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6921,7 +6937,7 @@ GameObject:
   - component: {fileID: 953673001}
   m_Layer: 0
   m_Name: WechatIMG102 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7123,7 +7139,7 @@ GameObject:
   - component: {fileID: 960743489}
   m_Layer: 0
   m_Name: WechatIMG102 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7268,7 +7284,7 @@ GameObject:
   - component: {fileID: 973478811}
   m_Layer: 0
   m_Name: WechatIMG102 (34)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7413,7 +7429,7 @@ GameObject:
   - component: {fileID: 1007908820}
   m_Layer: 0
   m_Name: WechatIMG102 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7558,7 +7574,7 @@ GameObject:
   - component: {fileID: 1024158453}
   m_Layer: 0
   m_Name: WechatIMG102 (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7761,7 +7777,7 @@ GameObject:
   - component: {fileID: 1033946224}
   m_Layer: 0
   m_Name: WechatIMG103
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7918,7 +7934,7 @@ GameObject:
   - component: {fileID: 1040144216}
   m_Layer: 0
   m_Name: WechatIMG102 (33)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8120,7 +8136,7 @@ GameObject:
   - component: {fileID: 1048557653}
   m_Layer: 0
   m_Name: WechatIMG102 (38)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8265,7 +8281,7 @@ GameObject:
   - component: {fileID: 1055121459}
   m_Layer: 0
   m_Name: WechatIMG102 (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8551,7 +8567,7 @@ GameObject:
   - component: {fileID: 1062053818}
   m_Layer: 0
   m_Name: WechatIMG102 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8867,7 +8883,7 @@ GameObject:
   - component: {fileID: 1157534799}
   m_Layer: 0
   m_Name: WechatIMG102 (29)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9012,7 +9028,7 @@ GameObject:
   - component: {fileID: 1183568748}
   m_Layer: 0
   m_Name: WechatIMG102 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9328,7 +9344,7 @@ GameObject:
   - component: {fileID: 1231325063}
   m_Layer: 0
   m_Name: WechatIMG102 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9644,7 +9660,7 @@ GameObject:
   - component: {fileID: 1301561289}
   m_Layer: 0
   m_Name: WechatIMG102 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9789,7 +9805,7 @@ GameObject:
   - component: {fileID: 1303480042}
   m_Layer: 0
   m_Name: WechatIMG102 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10121,7 +10137,7 @@ GameObject:
   - component: {fileID: 1347070391}
   m_Layer: 0
   m_Name: WechatIMG102 (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10494,7 +10510,7 @@ GameObject:
   - component: {fileID: 1490645457}
   m_Layer: 0
   m_Name: WechatIMG102 (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10854,7 +10870,7 @@ GameObject:
   - component: {fileID: 1584736639}
   m_Layer: 0
   m_Name: WechatIMG102 (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11000,7 +11016,7 @@ GameObject:
   - component: {fileID: 1594140015}
   m_Layer: 0
   m_Name: WechatIMG105 (7)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11157,7 +11173,7 @@ GameObject:
   - component: {fileID: 1602285225}
   m_Layer: 0
   m_Name: WechatIMG102
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11556,7 +11572,7 @@ GameObject:
   - component: {fileID: 1673937481}
   m_Layer: 0
   m_Name: WechatIMG105 (6)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11884,7 +11900,7 @@ GameObject:
   - component: {fileID: 1768356980}
   m_Layer: 0
   m_Name: WechatIMG102 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12143,7 +12159,7 @@ GameObject:
   - component: {fileID: 1819416870}
   m_Layer: 0
   m_Name: WechatIMG102 (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12288,7 +12304,7 @@ GameObject:
   - component: {fileID: 1821332525}
   m_Layer: 0
   m_Name: WechatIMG102 (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12735,7 +12751,7 @@ GameObject:
   - component: {fileID: 1884834504}
   m_Layer: 0
   m_Name: WechatIMG105 (2)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12892,7 +12908,7 @@ GameObject:
   - component: {fileID: 1889874399}
   m_Layer: 0
   m_Name: WechatIMG108
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13096,7 +13112,7 @@ GameObject:
   - component: {fileID: 1911450031}
   m_Layer: 0
   m_Name: WechatIMG102 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13617,7 +13633,7 @@ GameObject:
   - component: {fileID: 1965329984}
   m_Layer: 0
   m_Name: WechatIMG102 (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13877,7 +13893,7 @@ GameObject:
   - component: {fileID: 2050924957}
   m_Layer: 0
   m_Name: WechatIMG104 (5)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14035,7 +14051,7 @@ GameObject:
   - component: {fileID: 2059026661}
   m_Layer: 0
   m_Name: WechatIMG104 (4)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14192,7 +14208,7 @@ GameObject:
   - component: {fileID: 2072710865}
   m_Layer: 0
   m_Name: WechatIMG102 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14452,7 +14468,7 @@ GameObject:
   - component: {fileID: 2128207590}
   m_Layer: 0
   m_Name: WechatIMG104 (6)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14609,7 +14625,7 @@ GameObject:
   - component: {fileID: 2138345601}
   m_Layer: 0
   m_Name: WechatIMG102 (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14884,7 +14900,7 @@ GameObject:
   - component: {fileID: 2147194728}
   m_Layer: 0
   m_Name: WechatIMG102 (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

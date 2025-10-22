@@ -11,6 +11,7 @@ public class Trap : MonoBehaviour
             //Debug.Log("Player hit a trap!");
             // Here you can add code to reduce player health or trigger a death animation
             collision.GetComponent<SpriteRenderer>().color = Color.red;
+            GetComponent<AudioSource>().Play();
             Time.timeScale = 0f; // Pause the game
             
         }

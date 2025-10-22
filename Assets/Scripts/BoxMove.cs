@@ -8,9 +8,12 @@ public class BoxMove : MonoBehaviour
     public Rigidbody2D rb;
     public float speed;
     public float jumpForce;
+    public bool isOnGround;
 
     void Update()
     {
+        
+        
         if (Input.GetAxis("Horizontal") > 0)
         {
             transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = false;
@@ -23,8 +26,14 @@ public class BoxMove : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
-            rb.AddForce(jumpForce * Vector2.up,  ForceMode2D.Impulse);
-            GetComponent<AudioSource>().Play();
+            if (isOnGround)
+            {
+                rb.AddForce(jumpForce * Vector2.up,  ForceMode2D.Impulse);
+                GetComponent<AudioSource>().Play();
+            }
+            
         }
     }
+
+    
 }
