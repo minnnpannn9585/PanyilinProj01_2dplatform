@@ -8,6 +8,7 @@ public class Diamond : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            collision.GetComponent<BoxMove>().AddScore();
             Destroy(gameObject);
             Instantiate(Resources.Load("DiamondVfx"), transform.position, Quaternion.identity);
         }

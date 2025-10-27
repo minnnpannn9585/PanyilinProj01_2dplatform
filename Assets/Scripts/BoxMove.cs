@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BoxMove : MonoBehaviour
 {
@@ -10,6 +12,15 @@ public class BoxMove : MonoBehaviour
     public float jumpForce;
     public bool isOnGround;
 
+    public int score;
+    public TMP_Text scoreText;
+
+    public void AddScore()
+    {
+        score++;
+        scoreText.text = score.ToString();
+    }
+    
     void Update()
     {
         

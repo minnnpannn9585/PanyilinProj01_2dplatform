@@ -19,6 +19,14 @@ public class GroundCheck : MonoBehaviour
             player.isOnGround = true;
         }
     }
+    
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Ground") || other.CompareTag("Box"))
+        {
+            player.isOnGround = true;
+        }
+    }
 
     private void OnTriggerExit2D(Collider2D other)
     {
