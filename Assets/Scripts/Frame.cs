@@ -16,11 +16,19 @@ public class Frame : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GetComponent<SpriteRenderer>().color = Color.red;
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
             GetComponent<AudioSource>().Play();
             if(bgm!=null)
                 bgm.Pause();
+
+            Invoke("BackToMainMenu", 1f);
         }
         
+    }
+
+    void BackToMainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        //Time.timeScale = 1f; // Resume the game
     }
 }
