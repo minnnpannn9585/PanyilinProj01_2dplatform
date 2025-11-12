@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Trap : MonoBehaviour
 {
+    public SpriteRenderer frameSprite;
+    private void Awake()
+    {
+        frameSprite= GameObject.Find("Frame").GetComponent<SpriteRenderer>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
@@ -14,6 +19,7 @@ public class Trap : MonoBehaviour
             collision.GetComponent<SpriteRenderer>().color = Color.red;
             GetComponent<AudioSource>().Play();
             //Time.timeScale = 0f; // Pause the game
+            frameSprite.color = Color.red;
 
 
             Invoke("BackToMainMenu", 1f); // Wait for 1 second before going back to main menu
@@ -21,10 +27,12 @@ public class Trap : MonoBehaviour
 
         }
 
-         void BackToMainMenu()
-        {
-            SceneManager.LoadScene(0);
-            //Time.timeScale = 1f; // Resume the game
-        }
+         
+    }
+    void BackToMainMenu()
+    {
+        
+        SceneManager.LoadScene(0);
+        //Time.timeScale = 1f; // Resume the game
     }
 }
