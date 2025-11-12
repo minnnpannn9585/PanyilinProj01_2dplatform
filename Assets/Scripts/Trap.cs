@@ -21,7 +21,7 @@ public class Trap : MonoBehaviour
 
         }
 
-        void BackToMainMenu()
+         void BackToMainMenu()
         {
             SceneManager.LoadScene(0);
             //Time.timeScale = 1f; // Resume the game
